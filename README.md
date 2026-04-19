@@ -20,7 +20,8 @@ Dysglycemia significantly impacts cardiac repolarization and autonomic nervous s
 The framework is built around the **MIMIC-III Waveform Database Matched Subset** ([PhysioNet DOI: 10.13026/c2294b](http://doi.org/10.13026/c2294b)). To replicate this research or test the code, you can download the sample patient data (p000020) using the following command:
 
 ```bash
-wget -r -N -c -np --domains physionet.org \ https://physionet.org/files/mimic3wdb-matched/1.0/p00/p000020/
+wget -r -N -c -np --domains physionet.org \
+https://physionet.org/files/mimic3wdb-matched/1.0/p00/p000020/
 ```
 
 > **Note:** Ensure your local path structure matches the `BASE_PATH` defined in the notebook (`data/physionet.org/...`).
@@ -50,6 +51,12 @@ wget -r -N -c -np --domains physionet.org \ https://physionet.org/files/mimic3wd
 ### Prerequisites
 - Python 3.8+
 - Jupyter Notebook or JupyterLab
+
+```bash
+git clone https://github.com/kimnguyen2002/ECG-Based-Dysglycemia-Screening-in-Type-2-Diabetes.git
+cd ECG-Based-Dysglycemia-Screening-in-Type-2-Diabetes
+pip install -r requirements.txt
+```
 
 ### Dependencies
 Install the required Python packages using the provided `requirements.txt`:
