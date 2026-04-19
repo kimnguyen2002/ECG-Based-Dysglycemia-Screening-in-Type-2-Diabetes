@@ -20,8 +20,7 @@ Dysglycemia significantly impacts cardiac repolarization and autonomic nervous s
 The framework is built around the **MIMIC-III Waveform Database Matched Subset** ([PhysioNet DOI: 10.13026/c2294b](http://doi.org/10.13026/c2294b)). To replicate this research or test the code, you can download the sample patient data (p000020) using the following command:
 
 ```bash
-wget -r -N -c -np --domains physionet.org \
-https://physionet.org/files/mimic3wdb-matched/1.0/p00/p000020/
+wget -r -N -c -np --domains physionet.org \ https://physionet.org/files/mimic3wdb-matched/1.0/p00/p000020/
 ```
 
 > **Note:** Ensure your local path structure matches the `BASE_PATH` defined in the notebook (`data/physionet.org/...`).
@@ -79,10 +78,18 @@ The notebook generates several figures illustrating the physiological state of t
 
 ## 📖 References
 
-- **Chiu, C. C., et al. (2023).** *"Electrocardiogram-based dysglycemia screening using one-class support vector machine."* (Primary methodology reference).
-- **MIMIC-III Waveform Database.** Johnson, A. E. W., et al. Scientific Data (2016).
+1.  **Chiu I-M, et al. (2023).** *"Utilization of Personalized Machine-Learning to Screen for Dysglycemia from Ambulatory ECG, toward Noninvasive Blood Glucose Monitoring."* **Biosensors**, 13, 23. [DOI: 10.3390/bios13010023](https://doi.org/10.3390/bios13010023)
+2.  **González S, et al. (2024).** *"Multi-modal heart failure risk estimation based on short ECG and sampled long-term HRV."* **Information Fusion**, 107, 102337. [DOI: 10.1016/j.inffus.2024.102337](https://doi.org/10.1016/j.inffus.2024.102337)
+3.  **Fu Q, et al. (2023).** *"Effect of SGLT-2 inhibitor dapagliflozin on left ventricular remodeling in patients with type 2 diabetes and HFrEF."* **BMC Cardiovascular Disorders**, 23:544. [DOI: 10.1186/s12872-023-03591-3](https://doi.org/10.1186/s12872-023-03591-3)
+4.  **Isaksen JL, et al. (2024).** *"Electrocardiographic markers in patients with type 2 diabetes and the role of diabetes duration."* **Journal of Electrocardiology**, 84, 129–136. [DOI: 10.1016/j.jelectrocard.2024.04.003](https://doi.org/10.1016/j.jelectrocard.2024.04.003)
+5.  **Mohsen F, et al. (2025).** *"ECG features improve multimodal deep learning prediction of incident T2DM in a Middle Eastern cohort."* **Scientific Reports**, 15, 27164. [DOI: 10.1038/s41598-025-12633-z](https://doi.org/10.1038/s41598-025-12633-z)
+6.  **Savvopoulos S, et al. (2025).** *"AI-based integration of ECG biomarkers for assessing cardiac risk in type 2 diabetes mellitus with comorbid conditions for patient stratification."* **Frontiers in Medicine**, 12, 1646495. [DOI: 10.3389/fmed.2025.1646495](https://doi.org/10.3389/fmed.2025.1646495)
+7.  **Johnson AEW, et al. (2016).** *"MIMIC-III, a freely accessible critical care database."* **Scientific Data**, 3, 160035. [DOI: 10.1038/sdata.2016.35](https://doi.org/10.1038/sdata.2016.35)
+8.  **Moody GB, et al. (2000).** *"PhysioNet: A Research Resource for Studies of Complex Physiologic and Biomedical Signals."* **Circulation**, 101, e215–e220. [DOI: 10.1161/01.CIR.101.23.e215](https://doi.org/10.1161/01.CIR.101.23.e215)
+9.  **Pan J, Tompkins WJ. (1985).** *"A Real-Time QRS Detection Algorithm."* **IEEE Transactions on Biomedical Engineering**, 32(3), 230–236. [DOI: 10.1109/TBME.1985.325532](https://doi.org/10.1109/TBME.1985.325532)
+10. **Goldberger AL, et al. (2000).** *"PhysioBank, PhysioToolkit, and PhysioNet."* **Circulation**, 101(23), e215–e220. [PhysioNet DOI: 10.13026/c2294b](https://doi.org/10.13026/c2294b)
 
 ---
 
 ## ⚖️ License
-This project is intended for research and educational purposes. Data usage must comply with the [PhysioNet Credentialed Health Data License](https://physionet.org/about/license/).
+This project is intended for research and educational purposes to simulate the working of ECG. Data usage must comply with the [PhysioNet Credentialed Health Data License](https://physionet.org/about/license/).
