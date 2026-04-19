@@ -99,4 +99,4 @@ The notebook generates several figures illustrating the physiological state of t
 ---
 
 ## ⚖️ License
-This project is intended for research and educational purposes to simulate the working of ECG. Data usage must comply with the [PhysioNet Credentialed Health Data License]([https://physionet.org/about/license/](https://physionet.org/about/licenses/open-data-commons-attribution-license-v10/)).
+This project is intended for research and educational purposes to simulate the working of ECG. Data usage must comply with the [PhysioNet Credentialed Health Data License](https://physionet.org/about/licenses/open-data-commons-attribution-license-v10/).
